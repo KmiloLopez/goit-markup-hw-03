@@ -1,0 +1,267 @@
+
+.main-font-roboto-fourhundred {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: #212121;
+
+}
+   
+.button-mainpage {
+    width: 197px;
+height: 30px;
+
+font-family: inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+     
+}
+
+
+
+.button-mainpage:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #2196F3;
+    
+}
+.button-mainpage:focus {
+    color: black;
+    
+}
+.contacts-top {
+    
+
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #757575;
+    
+}
+.contacts-top:hover {
+    color:#2196F3;
+    cursor: pointer;
+    
+}
+.contacts-bottom {
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.6);
+background: #2F303A;
+}
+.contacts-bottom:hover {
+    cursor: pointer;
+    color: #2196F3;
+}
+.enlaces:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+.enlaces:focus {
+    color: black;
+    text-decoration: none;
+    
+}
+.enlaces {
+    text-decoration: none;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: inherit ;
+}
+
+.logos-page {
+    color: #2196F3;
+    text-decoration: none;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+
+    text-align: left;
+    letter-spacing: 0.03em;
+
+}
+.logos-page:hover {
+    color: black;
+    
+}
+.portfolio-buttons:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-color: #2196F3;
+}
+.portfolio-buttons:focus {
+    background-color: #2196F3;
+    color: black;
+}
+.portfolio-buttons {
+    width: 110px;
+height: 26px;
+left: calc(50% - 80px/2 - 160px);
+top: calc(50% - 26px/2 - 735px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+
+cursor: pointer;
+}
+
+
+.roboto-five-hundred {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+#main-tittle {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #2F303A;
+}
+.tittles-middle-page {
+    font-family: 'Roboto';
+
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+
+}
+.tittles-images {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    
+}
+.names {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.description {
+    
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.tittles-portfolio { 
+    
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+.index-cards{
+    width: 270px;
+    height: 368px;
+}
+.card {
+    width: 370px;
+    height: 404px;
+    margin-bottom: 20;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.image-size {
+    max-width: 100%;
+    height: auto;
+}
+.card-content{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575
+
+}
+.address {
+    
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+background-color: #2F303A;
+color: #FFFFFF;
+
+}
