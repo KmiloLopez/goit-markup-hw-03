@@ -149,6 +149,12 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
+/* Agregue esto pero no a funcionado , solo funciono agregando border y margin sin pensar*/
+display: flexbox;
+    width: 281px;
+    height: 100%;
+    border-right: 344px;
+
 }
 #main-tittle {
     font-family: 'Roboto';
@@ -276,9 +282,10 @@ color: #FFFFFF;
     box-sizing: border-box;
     display: flex;
     width: 1173.16px;
-    background-color: #2196F3;
+    
     padding: 0%;
     margin: auto;
+    
 }
 .first-element{
     margin-right: 30px;
@@ -307,4 +314,23 @@ color: #FFFFFF;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+.show-inline{
+    display: flex;
+    width: 281px;
+    border-right: 344px;
+    
+}
+.first-link{
+    
+    margin-left: 93px;
+}
+.second-link{
+    margin-left: 50px;
+
+}
+.third-link{
+    margin-left: 50px;
+    margin-right: 344px;
 }
