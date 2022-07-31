@@ -51,6 +51,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: #757575;
+margin: 0%;
     
 }
 .contacts-top:hover {
@@ -105,6 +106,7 @@ background: #2F303A;
 
     text-align: left;
     letter-spacing: 0.03em;
+  
 
 }
 .logos-page:hover {
@@ -152,9 +154,10 @@ text-decoration: none;
 /* Agregue esto pero no a funcionado , solo funciono agregando border y margin sin pensar*/
 display: flexbox;
     width: 281px;
-    height: 100%;
+    height: 20px;
     border-right: 344px;
-
+margin-left: 93px;
+margin-right: 344px;
 }
 #main-tittle {
     font-family: 'Roboto';
@@ -169,6 +172,8 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 background-color: #2F303A;
+margin-bottom: 30px;
+margin-top: 0%;
 }
 .tittles-middle-page {
     font-family: 'Roboto';
@@ -189,10 +194,9 @@ text-transform: uppercase;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
-    padding-bottom: 55.05px;
     border: 0px;
-    margin: 0%;
+    margin-top: 188px;
+    margin-bottom: 50px;
     
     
 }
@@ -221,6 +225,8 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
+gap: 37px;
+margin-bottom: 94px;
 
 }
 .tittles-portfolio { 
@@ -279,12 +285,14 @@ color: #FFFFFF;
 }
 .container{
     /* box-sizing: border-box; no necesario  cuando usamos display flex*/
-    box-sizing: border-box;
-    display: flex;
-    width: 1173.16px;
     
-    padding: 0%;
-    margin: auto;
+    display: flex;
+    width: 1200px;
+    height: auto;
+    padding: 0% 0%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
     
 }
 .first-element{
@@ -310,27 +318,58 @@ color: #FFFFFF;
     width: 1600px;
     height: 600px;
     background-color: #2F303A;
-    margin: auto;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 95px;
     
 }
 .show-inline{
     display: flex;
-    width: 281px;
-    border-right: 344px;
+    margin:0%;
+    padding: 0%;
+   
     
 }
 .first-link{
-    
-    margin-left: 93px;
+    padding: 0% 0%;
+    margin-left: 0px;
+    margin-right: 50px;
 }
 .second-link{
-    margin-left: 50px;
+    padding: 0% 0%;
+    margin-right: 50px;
 
 }
 .third-link{
+    padding: 0% 0%;
+    
+    
+}
+.phone-contact{
     margin-left: 50px;
-    margin-right: 344px;
+}
+.align-all{
+    align-items: center;
+    padding-top: 24px;
+    
+}
+.texty{
+    margin: 0%;
+}
+.tittles-imag{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 0%;
+    border: 0px;
+    margin-top: 94px;
+    margin-bottom: 55.05px;
 }
