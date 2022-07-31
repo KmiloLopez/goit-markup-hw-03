@@ -59,7 +59,7 @@ margin: 0%;
     cursor: pointer;
     
 }
-.contacts-bottom {
+.contacts-bottom-one {
     
 font-weight: 400;
 font-size: 14px;
@@ -68,8 +68,24 @@ letter-spacing: 0.03em;
 text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
 background: #2F303A;
+margin: 0% auto 2px 215px ;
 }
-.contacts-bottom:hover {
+.contacts-bottom-two {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    background: #2F303A;
+    margin: 0% auto 60px 215px;
+    }
+.contacts-bottom-one:hover {
+    cursor: pointer;
+    color: #2196F3;
+}
+.contacts-bottom-two:hover {
     cursor: pointer;
     color: #2196F3;
 }
@@ -281,6 +297,10 @@ line-height: 24px;
 letter-spacing: 0.03em;
 background-color: #2F303A;
 color: #FFFFFF;
+margin:0% auto 2px 215px;
+display: flex;
+flex-wrap: wrap;
+width: 231px;
 
 }
 .container{
@@ -372,4 +392,22 @@ color: #FFFFFF;
     border: 0px;
     margin-top: 94px;
     margin-bottom: 55.05px;
+}
+.bottom-box{
+    box-sizing:content-box;
+    
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    margin-bottom:55px;
+
+}
+.logos-gap{
+    padding-top: 60px;
+    padding-left: 215px;
+    margin: 0% 0% 9px 0%;
 }
