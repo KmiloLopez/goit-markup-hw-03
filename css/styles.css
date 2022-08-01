@@ -129,20 +129,55 @@ margin: 0% auto 2px 215px ;
     color: black;
     
 }
-.portfolio-buttons:hover {
+.portfolio-buttons-first:hover {
     background-color: #2196F3;
     color: #FFFFFF;
     border-color: #2196F3;
 }
-.portfolio-buttons:focus {
+.portfolio-buttons-first:focus {
     background-color: #2196F3;
     color: black;
 }
-.portfolio-buttons {
-    width: 110px;
-height: 26px;
-left: calc(50% - 80px/2 - 160px);
-top: calc(50% - 26px/2 - 735px);
+.portfolio-buttons-second:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-color: #2196F3;
+}
+.portfolio-buttons-second:focus {
+    background-color: #2196F3;
+    color: black;
+}
+.portfolio-buttons-third:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-color: #2196F3;
+}
+.portfolio-buttons-third:focus {
+    background-color: #2196F3;
+    color: black;
+}
+.portfolio-buttons-fourth:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-color: #2196F3;
+}
+.portfolio-buttons-fourth:focus {
+    background-color: #2196F3;
+    color: black;
+}
+.portfolio-buttons-fith:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-color: #2196F3;
+}
+.portfolio-buttons-fith:focus {
+    background-color: #2196F3;
+    color: black;
+}
+.portfolio-buttons-first {
+    width: 73px;
+height: 38px;
+
 
 font-family: 'Roboto';
 font-style: normal;
@@ -157,7 +192,78 @@ letter-spacing: 0.03em;
 
 cursor: pointer;
 }
+.portfolio-buttons-second {
+    width: 128px;
+height: 38px;
 
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+
+cursor: pointer;
+}
+.portfolio-buttons-third {
+    width: 145px;
+height: 38px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+
+cursor: pointer;
+}
+.portfolio-buttons-fourth {
+    width: 103px;
+height: 38px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+
+cursor: pointer;
+}
+.portfolio-buttons-fith {
+    width: 130px;
+height: 38px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+
+cursor: pointer;
+}
 
 .roboto-five-hundred {
     font-family: 'Roboto';
@@ -256,6 +362,8 @@ line-height: 36px;
 letter-spacing: 0.06em;
 
 color: #212121;
+margin-top: 0%;
+margin-bottom: 4px;
 }
 .index-cards{
     width: 270px;
@@ -272,6 +380,7 @@ color: #212121;
 .image-size {
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 .card-content{
     
@@ -400,14 +509,50 @@ width: 231px;
     height: 252px;
     background-color: #2F303A;
     
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0%;
-    margin-bottom:55px;
+  
+    margin: 0% auto 55px auto;
 
 }
 .logos-gap{
     padding-top: 60px;
     padding-left: 215px;
     margin: 0% 0% 9px 0%;
+}
+.align-to-container{
+    justify-content: center;
+    margin-bottom: 50px;
+    gap:8px;
+    
+}
+.align-to-container li{
+    list-style: none;
+}
+.container-wrap{
+    /* box-sizing: border-box; no necesario  cuando usamos display flex*/
+    
+    display: flex;
+    width: 1200px;
+    height: auto;
+    padding: 0% 0%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 82px;
+    
+}
+.container-box{
+    /* box-sizing: border-box; no necesario  cuando usamos display flex*/
+    
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    padding: 0% 0%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    margin-bottom: 106px;
+    border-bottom: solid 1px #ECECEC;
+    
 }
